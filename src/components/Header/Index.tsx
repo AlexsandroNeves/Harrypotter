@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from './img/Logo.png'
+import Logo from './img/logo.png'
 import { FaSearch } from "react-icons/fa";
 import './styles.modules.scss'
 export default function Header() {
