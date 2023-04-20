@@ -18,7 +18,6 @@ export default function Header() {
                     <img src={Logo} alt="Logo da página" className='header-logo' />
                     <div className='bloco-search'>
                         <input type="text" placeholder='Digite um nome...' className='search-home' value={searchTerm}  onChange={search}/>
-
                         <FaSearch className='icon-search' />
                     </div>
                 </div>
