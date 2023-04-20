@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from './img/Logo.png'
+import Logo from './img/Logo.png'
 import { FaSearch } from "react-icons/fa";
 import './styles.modules.scss'
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
             <div className='bloco-header'>
 
                 <div className='container-header'>
-                    <img src={logo} alt="Logo da página" className='header-logo' />
+                    <img src={Logo} alt="Logo da página" className='header-logo' />
                     <div className='bloco-search'>
                         <input type="text" placeholder='Digite um nome...' className='search-home' value={searchTerm}  onChange={search}/>
 
