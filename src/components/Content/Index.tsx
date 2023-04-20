@@ -11,13 +11,10 @@ export default function Content() {
         characters(setChar)
     }, []);
 
-
     return (
-
         <>
             <div className="bloco-content">
                 {
-
                     char.map((characters, index) => (
                         <div key={index} className="char">
                             <img src={characters.image} alt={characters.name} title={characters.name} className="characters-img" />
@@ -26,9 +23,7 @@ export default function Content() {
                             <p className="characters">Nome: {characters.actor}</p>
                             <p className="characters">Patronus: {characters.patronus}</p>
                             <p className="characters">Casa: {characters.house}</p>
-
                         </div>
-
                     ))
                 }
 
